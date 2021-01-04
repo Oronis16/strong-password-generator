@@ -1,0 +1,24 @@
+{
+  "name": "strong-password-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oronis16/strong-password-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oronis16/strong-password-generator/issues"
+  },
+  "homepage": "https://github.com/Oronis16/strong-password-generator#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}

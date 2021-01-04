@@ -1,0 +1,19 @@
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  flex-direction: column;
+}
+
+.filed {
+  height: 400px;
+}
+
+.btn {
+  margin: 15px
+}
+
+.global-box {
+  display: flex;
+}

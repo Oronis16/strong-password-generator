@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strong Password Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+  </head>
+  <body>
+    <div class="input-box box">
+      <div class="global-box">
+        <div class="field">
+          <div class="control">
+            <input
+              class="input is-large"
+              type="text"
+              placeholder="Large input"
+            />
+          </div>
+        </div>
+        <button class="btn button is-primary">Generate</button>
+      </div>
+      <details>
+        <summary>Options</summary>
+        <div class="is-flex is-flex-direction-column">
+          <input type="number" class="length">
+          <label class="checkbox">
+            <input type="checkbox" class="upper" checked>
+            Uppercase
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" class="lower" checked>
+            Lowercase
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" class="num" checked>
+            Numbers
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" class="sym" checked>
+            Symbols
+          </label>
+        </div>
+
+      </details>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
